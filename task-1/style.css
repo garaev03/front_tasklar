@@ -1,0 +1,347 @@
+.buyknow {
+    width: 120px;
+    height: 44px;
+    color: aliceblue;
+    background-color: #50BF87;
+    border-color: #50BF87;
+}
+
+.buyknow:hover {
+    background-color: #009E7E;
+    color: aliceblue;
+}
+
+ul {
+    list-style: none;
+}
+
+.Nav {
+    background-color: #0E54EC;
+    color: rgb(210, 210, 210);
+    transition: 1s;
+}
+
+#Nav {
+    background-color: #212832;
+    color: rgb(210, 210, 210);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.section1 {
+    background-color: #0E54EC;
+    margin-top: 100px;
+    color: white;
+}
+
+.sec1Anim1 {}
+
+.sec1Title {
+    font-size: 40px;
+}
+
+.sec1Desc {
+    color: rgb(164, 164, 164);
+    font-size: larger;
+}
+
+#sec1but {
+    margin-bottom: 80px;
+}
+
+#sec1img {
+    width: 660px;
+    height: 377px;
+}
+
+#sec1a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.sec3Img {
+    width: 700px;
+    height: 450px;
+    transform: skew(.100rad);
+
+}
+
+#sec3TitleDesc {
+    font-size: 20px;
+    color: rgb(78, 78, 78);
+}
+
+.section3 {
+    background-color: #F2F6FC;
+}
+
+.smallTextTitle {
+    font-size: 20px;
+}
+
+.part2Desc {
+    font-weight: lighter;
+    color: rgb(78, 78, 78);
+}
+
+.price {
+    margin-bottom: 15px;
+}
+
+.currency {
+    font-size: 25px;
+}
+
+.priceNumber {
+    font-size: 50px;
+    padding-left: 7px;
+    padding-right: 9px;
+}
+
+.sec3List {
+    text-decoration: none;
+}
+
+.checkmarks {
+    margin-right: 8px;
+    color: greenyellow;
+    padding-right: 2px;
+}
+
+.bubble {
+    width: 50px;
+    font-size: 12px;
+    margin-left: 210px;
+    margin-right: 210px;
+    background-color: #F2F6FC;
+    border-radius: 20px;
+}
+
+#standart {
+    background-color: #DAE7FB;
+    width: 70px;
+    color: #0E54EC;
+}
+
+.card {
+    height: 400px;
+}
+
+#enterprise {
+    width: 75px;
+}
+
+.lastCard {
+    color: #69707A;
+}
+
+.part3 {
+    background-color: #212832;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.backgroundColor {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.question {
+    color: white;
+    margin-right: 20px;
+    background-color: #00BA94;
+    font-size: 20px;
+    width: 42px;
+}
+
+.fieldTitle {
+    color: white;
+}
+
+.fieldDesc {
+    color: #909499;
+}
+
+.Allfield {
+    margin-bottom: 120px;
+}
+
+.getStarted {
+    color: #8F9296;
+    background-color: #1E242D;
+    width: 80px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.adverTitle {
+    color: white;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.adverDesc {
+    color: #8F9296;
+    margin-top: 15px;
+    margin-left: 340px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    width: 750px;
+}
+
+.bayKnow {
+    background-color: #00BA94;
+    font-size: 14px;
+}
+
+.bayKnow:hover {
+    background-color: #009E7E;
+    color: aliceblue;
+}
+
+.social {
+    display: flex;
+    padding-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+
+.svgGoogle {
+    width: 130px;
+}
+
+.part4 {
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+.google {
+    width: 600px;
+    border-style: solid;
+    border-color: rgb(188, 188, 188);
+    border-width: 1px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    padding-right: 100px;
+}
+
+.SocialDesc {
+    font-size: 20px;
+    color: #0E54EC;
+}
+
+.authorName {
+    color: #69707A;
+    font-weight: bold;
+}
+
+.authorJob {
+    font-weight: lighter;
+}
+
+.instagram {
+    padding-left: 100px;
+    width: 620px;
+}
+
+.svgIns {
+    width: 130px;
+}
+
+.twocards {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+}
+
+.part5 {
+    padding-top: 100px;
+}
+
+.part5firstCard {
+    padding-right: 70px;
+}
+
+#part5Card {
+    height: 140px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+#part5Card:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.part5CardLogo1 {
+    margin-right: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #0061F2;
+}
+
+.part5CardLogo2 {
+    margin-right: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #6900C7;
+}
+
+.part5CardTitle1 {
+    color: #0061F2;
+}
+
+.part5CardTitle2 {
+    color: #6900C7;
+}
+
+.part5CardDesc {
+    color: #8F9296;
+}
+
+.underTwocards {
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-bottom: 100px;
+}
+
+.readyGetStartedP {
+    color: #8F9296;
+}
+
+.footer {
+    background-color: #f2f6fcc3;
+    margin-top: 0px;
+}
+
+.footerMain {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 100px;
+}
+
+.footerColor {
+    color: #8F9296;
+}
+
+.line {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.footerLast {
+    margin-left: 100px;
+    margin-right: 100px;
+}
