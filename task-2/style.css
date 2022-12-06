@@ -33,6 +33,7 @@ body {
     color: white;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 .nav>a:hover {
@@ -58,6 +59,8 @@ body {
     font-weight: bold;
     margin-bottom: 15px;
 }
+
+
 
 .sec1TextNice {
     font-size: 65px;
@@ -453,4 +456,10 @@ textarea::placeholder {
     padding: 10px;
     text-decoration: none;
     color: black;
+}
+
+
+
+@media screen(max width 1000px) {
+    
 }
