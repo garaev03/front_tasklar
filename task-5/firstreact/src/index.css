@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(226, 226, 226);
+  padding-bottom: 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbarAndItems {
+  margin-top: 20px;
+  display: flex;
+}
+
+.navbarAndItems h1 {
+  margin: 0;
+  margin-right: 2rem;
+  color: rgb(62, 82, 120);
+}
+
+.navbarAndItems h1:hover {
+  cursor: pointer;
+}
+
+.navbarAndItems .navItems {
+  display: flex;
+  align-items: center;
+}
+
+.navItems a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+@keyframes colorChange {
+  to {
+      color: rgb(62, 82, 120)
+  }
+}
+
+.navItems a:hover {
+  animation: colorChange 0.5s forwards;
+  cursor: pointer;
+}
+
+@keyframes colorChange {
+  to {
+      color: rgb(62, 82, 120)
+  }
+
+  ;
+}
+
+.basketAndSearch {
+  display: flex;
+  margin-top: 20px;
+}
+
+.basketAndSearch img {
+  position: relative;
+
+}
+
+.basketAndSearch span {
+  font-size: 13px;
+  position: absolute;
+  margin-left: 20px;
+  background-color: rgb(240, 91, 91);
+  border-radius: 50%;
+  color: white;
+  width: 13px;
+  text-align: center;
+}
+
+.container {
+  margin-top: 4rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.cards {
+  column-count: 4;
+  column-gap: 2rem;
+}
+
+.card {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: solid;
+  border-radius: 10%;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.card-text {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
